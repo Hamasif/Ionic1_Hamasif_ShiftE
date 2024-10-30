@@ -1,0 +1,37 @@
+#container {
+  padding: 20px;
+}
+
+ion-card {
+  background: linear-gradient(135deg, #e3ffe7 0%, #d9e7ff 100%);
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+ion-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+ion-card-header {
+  text-align: center;
+}
+
+ion-card-title {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #1a73e8;
+}
+
+ion-card-subtitle {
+  font-size: 1.2em;
+  color: #555;
+}
+
+ion-card-content {
+  font-size: 1.1em;
+  text-align: center;
+  color: #333;
+}
